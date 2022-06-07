@@ -13,3 +13,22 @@ body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
 }
+.container {
+  width: 100%;
+}
+.img-box {
+  /* width: 68%;
+  height: 68%; */
+  margin: auto;
+  background-image: url("./images/background.png");
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  object-fit: cover;
+}
+.img-wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+}
